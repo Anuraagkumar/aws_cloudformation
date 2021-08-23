@@ -6,7 +6,7 @@ Resources:
     Type: AWS::SNS::Topic
     Properties:
       Subscription:
-        - Endpoint: !Ref Email
+        - Endpoint: 'anuraagkumar@mailinator.com'
           Protocol: email
 Outputs:
   BucketName:
