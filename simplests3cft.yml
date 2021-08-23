@@ -6,3 +6,9 @@ Outputs:
   BucketName:
     Value: !Ref 'S3Bucket'
     Description: Name of the sample Amazon S3 bucket.
+MySNSTopic:
+  Type: AWS::SNS::Topic
+  Properties:
+    Subscription:
+      - Endpoint: "anuraagkumar@mailinator.com
+        Protocol: "email"
