@@ -10,5 +10,5 @@ MySNSTopic:
   Type: AWS::SNS::Topic
   Properties:
     Subscription:
-      - Endpoint: "anuraagkumar@mailinator.com
+      - Endpoint: "anuraagkumar@mailinator.com"
         Protocol: "email"
